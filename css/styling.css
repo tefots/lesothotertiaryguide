@@ -1,0 +1,33 @@
+/*
+========================================
+			Login
+========================================
+*/
+.login_body {
+	background-image: url(../imgs/background.jpg);
+	background-size: cover;
+}
+
+.container {
+
+	min-height: 100vh;
+}
+
+form {
+	width: 200px;
+}
+
+/*
+========================================
+			Dashboard body
+========================================
+*/
+
+.dashboard_bod {
+	background-color: #FAF9F6;
+
+}
+
+.table_members {
+	width: 100px;
+}

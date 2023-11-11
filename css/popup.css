@@ -1,0 +1,89 @@
+.popup-content {
+				display:none;
+				width:326px;
+				height:410px;
+				background:#fff;
+				box-shadow: 4px 4px 10px rgb(0 0/11%);
+				border-radius:25px;
+				object-fit:cover;
+		
+        }
+.imgbox {
+			text-align:center;
+}
+.img {	
+	width:112px;
+	margin-top:40px;}
+	
+.title {
+	font-weight:500;
+	font-size:24px;
+	letter-spacing:0.5px;
+	margin:auto;
+}
+
+.message {
+		font-weight:500;
+		font-size:18px;
+		width:80%;
+		line-height:30px;
+	    letter-spacing:0.5px;
+		text-align:center;
+		margin:auto;
+}
+.button {
+		width:50%;
+		display:block;
+		margin:auto;
+		border-radius: 25px;
+		padding:10px;
+		text-decoration:none;
+		text-align:center;
+		letter-spacing:0.5px;
+}
+#ok_button {
+	background:#32ba7c;
+}
+//success
+#success {
+	position:fixed;
+	top:20%;
+	right:70%;
+	
+}
+
+#success_trigger {
+	position:fixed;
+	background:#32ba7c;
+	top:20%;
+	left:20%;
+}
+
+//error
+#error {
+	position:fixed;
+	top:20%;
+	left:70%;
+	
+}
+#error .title{
+	color:#ff3636;
+}
+#wrong_button {
+	background:#ff3636;
+}
+
+#trigger_popup {
+	cursor:pointer;
+	font-size:20px;
+	font-weight:bold;
+	color:#fff;
+	padding:10px;
+}
+#error_trigger {
+	position:fixed;	
+	top:20%;
+	left:50%;
+	
+	
+}
